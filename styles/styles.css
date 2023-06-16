@@ -1100,8 +1100,7 @@ footer{
     /* END CART RESPONSIVE */
 }
 
-
-@media (max-width:320px){
+@media (max-width:340px){
     /* START HOME RESPOSIVE */
         /* Header Styles */
         header{
@@ -1177,6 +1176,7 @@ footer{
             width: 100%;
         }
 
+
     /* END HOME RESPONSIVE */
 
     /* START NOSOTROS RESPONSIVE */
@@ -1206,3 +1206,5 @@ footer{
         }
     /* END CART RESPONSIVE */
 }
+
+
