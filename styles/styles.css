@@ -1100,6 +1100,22 @@ footer{
     /* END CART RESPONSIVE */
 }
 
+@media (max-width:400px){
+    /* START HOME RESPONSIVE */
+
+        /* Header Styles */
+        .header_title_container{
+            width: 65%;
+            height: 30%;
+        }
+
+        .header_title_container h2{
+            font-size: 1.8rem;
+        }
+
+    /* END HOME RESPONSIVE */
+}
+
 @media (max-width:360px){
     /* START HOME RESPOSIVE */
         /* Header Styles */
