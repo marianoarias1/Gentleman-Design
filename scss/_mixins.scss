@@ -1,0 +1,40 @@
+//Extends
+
+.image-transition{
+    position: absolute;
+    display: flex;
+    height: auto;
+    justify-content:center;
+    align-items: flex-start;
+    transition: all .3s ease-in-out;
+    &:hover{
+        opacity: 0;
+    }
+}
+
+.btn-gral{
+    width: 200px;
+    height: 40px;
+    background-color: $secondaryColor;
+    border: none;
+    color: $mainColor;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+    &:hover{
+        background-color: transparent;
+        color: $secondaryColor;
+        border: .2px solid $secondaryColor;
+    }
+    &:active{
+        transform: scale(.97);
+    }
+}
+
+//Mixins
+
+@mixin textos($size,$color,$weight){
+    font-size: $size;
+    color: $color;
+    font-weight: $weight;
+    font-family: $mainFont; //variable global
+}
