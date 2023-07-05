@@ -50,11 +50,8 @@ header{
                 img{
                     width: 300px;
                     &:nth-child(1){
-                        width: 400px;
-                        &:nth-child(1){
-                            @extend .image-transition;
-                            width: 300px;
-                        }
+                        @extend .image-transition;
+                        width: 300px;
                     }
                 }
             }
