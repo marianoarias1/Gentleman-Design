@@ -1,4 +1,4 @@
-<h1> Segunda PreEntrega Mariano Arias 🚀</h1>
+<h1> Tercera PreEntrega Mariano Arias 🚀</h1>
 <p> Proyecto sobre ropa para caballeros realizado para CODER HOUSE</p>
 <p> Link de vercel: <a href="https://gentleman-design.vercel.app/" target="_blank"> Click acá</a></p>
 <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/93659158/248093886-56663a99-b5df-440e-a68b-59fa4753308a.png">
