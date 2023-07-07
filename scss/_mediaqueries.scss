@@ -373,13 +373,15 @@
         .main-404{
             .card-container-404{
                 flex-direction: column;
-                .image-container{
+                width: 100%;
+                .image-container-404{
                     width: 100%;
-                    height: 20%;
+                    img{
+                        width: 100%;
+                    }
                 }
                 .data-container-404{
                     width: 100%;
-                    height: 30%;
                 }
             }
         }
