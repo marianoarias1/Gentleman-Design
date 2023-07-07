@@ -8,8 +8,11 @@
     <link rel="stylesheet" href="../styles/main.css">
     <!-- Link CSS -->
     <link rel="shortcut icon" href="../assets/Images/LOGO_FAVICON.png" type="image/x-icon">
+    <!-- AOS Library -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="https://kit.fontawesome.com/bdcf4d14b8.js" crossorigin="anonymous"></script>
-    <title>Gentleman Design</title>
+    <meta name="description" content="Descubre de que se trata Gentleman Design y que por que deberías elegirnos">
+    <title>Gentleman Design - Quienes somos</title>
 </head>
 <body>
     <!-- Start Bootstrap NAV -->
@@ -49,14 +52,14 @@
 
     <main class="main_nosotros">
         <div class="nosotros_image_container">
-            <img src="../assets/Images/Nosotros/Nosotros.jpg" alt="Imagen nosotros">
+            <img src="../assets/Images/Nosotros/Nosotros.jpg" alt="Imagen caballeros posando con trajes">
         </div>
 
         <div class="nosotros_data_container">
-            <div class="title_nosotros_container">
+            <div class="title_nosotros_container" data-aos="fade-right">
                 <h2>GENTLEMAN DESIGN</h2>
             </div>
-            <div class="text_nosotros_container">
+            <div class="text_nosotros_container"  data-aos="fade-right">
                 <p>
                     Somos una empresa que desde hace tiempo nos propusimos mantener la forma de vestir de los caballeros, buscamos darle a nuestra ropa un estilo propio sin dejar de lado esa linea y ese toque que caracteriza a GENTLEMAN®. Se parte de nuestra experiencia y vístete con estilo.
                 </p>
@@ -67,7 +70,7 @@
     <!-- Ends Main -->
 
     <section class="materials">
-        <div class="text-container-materials">
+        <div class="text-container-materials" data-aos="fade-left">
             <p>
                 Nos encargamos de seleccionar los mejores materiales para la construcción de nuestros productos, así el cliente puede estar seguro de que obtendrá un producto de alta calidad.
             </p>
@@ -86,9 +89,9 @@
             </div>
 
             <div class="all-cards-container">
-                <div class="card-container-materials">
+                <div class="card-container-materials" data-aos="flip-left">
                     <div class="image-card-container">
-                        <img src="../assets/Images/Nosotros/perfect-size.jpg" alt="Tamaño perfecto de traje">
+                        <img src="../assets/Images/Nosotros/perfect-size.webp" alt="Persona midiendo el traje">
                     </div>
                     <div class="text-card-container">
                         <p>
@@ -97,9 +100,9 @@
                     </div>
                 </div>
     
-                <div class="card-container-materials">
+                <div class="card-container-materials" data-aos="flip-left">
                     <div class="image-card-container">
-                        <img src="../assets/Images/Nosotros/colors-materials.jpg" alt="Tela de colores">
+                        <img src="../assets/Images/Nosotros/colors-materials.jpg" alt="Tela de colores para trajes">
                     </div>
                     <div class="text-card-container">
                         <p>
@@ -108,9 +111,9 @@
                     </div>
                 </div>
     
-                <div class="card-container-materials">
+                <div class="card-container-materials" data-aos="flip-left">
                     <div class="image-card-container">
-                        <img src="../assets/Images/Nosotros/perfect-fit.jpg" alt="Traje con medidas">
+                        <img src="../assets/Images/Nosotros/perfect-fit.jpg" alt="Trajes con medidas y cortes">
                     </div>
                     <div class="text-card-container">
                         <p>
@@ -151,5 +154,10 @@
     <!-- Ends Footer -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <!-- AOS Script -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>

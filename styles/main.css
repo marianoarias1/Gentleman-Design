@@ -13,21 +13,21 @@
   opacity: 0;
 }
 
-.btn-gral, .cart_main .card_cart_container .cart_footer_container .cart_btn_container button, .cart_main .card_cart_container .cart_products_container .cart_product .btn-product-container button, .main_user .card_user_container .btn_container button, main .product_main .product_card_main .data_container_products .add_cart, .recommended_container .product_container .product_card_recommended .data_container_recommended .add_cart {
+.btn-gral, .main-404 .card-container-404 .data-container-404 button, .cart_main .card_cart_container .cart_footer_container .cart_btn_container button, .cart_main .card_cart_container .cart_products_container .cart_product .btn-product-container button, .main_user .card_user_container .btn_container button, main .product_main .product_card_main .data_container_products .add_cart, .recommended_container .product_container .product_card_recommended .data_container_recommended .add_cart {
   width: 200px;
   height: 40px;
   background-color: rgb(9, 9, 9);
   border: none;
-  color: #fbf9f9;
+  color: #fefefe;
   transition: all 0.3s ease-in-out;
   cursor: pointer;
 }
-.btn-gral:hover, .cart_main .card_cart_container .cart_footer_container .cart_btn_container button:hover, .cart_main .card_cart_container .cart_products_container .cart_product .btn-product-container button:hover, .main_user .card_user_container .btn_container button:hover, main .product_main .product_card_main .data_container_products .add_cart:hover, .recommended_container .product_container .product_card_recommended .data_container_recommended .add_cart:hover {
+.btn-gral:hover, .main-404 .card-container-404 .data-container-404 button:hover, .cart_main .card_cart_container .cart_footer_container .cart_btn_container button:hover, .cart_main .card_cart_container .cart_products_container .cart_product .btn-product-container button:hover, .main_user .card_user_container .btn_container button:hover, main .product_main .product_card_main .data_container_products .add_cart:hover, .recommended_container .product_container .product_card_recommended .data_container_recommended .add_cart:hover {
   background-color: transparent;
   color: rgb(9, 9, 9);
   border: 0.2px solid rgb(9, 9, 9);
 }
-.btn-gral:active, .cart_main .card_cart_container .cart_footer_container .cart_btn_container button:active, .cart_main .card_cart_container .cart_products_container .cart_product .btn-product-container button:active, .main_user .card_user_container .btn_container button:active, main .product_main .product_card_main .data_container_products .add_cart:active, .recommended_container .product_container .product_card_recommended .data_container_recommended .add_cart:active {
+.btn-gral:active, .main-404 .card-container-404 .data-container-404 button:active, .cart_main .card_cart_container .cart_footer_container .cart_btn_container button:active, .cart_main .card_cart_container .cart_products_container .cart_product .btn-product-container button:active, .main_user .card_user_container .btn_container button:active, main .product_main .product_card_main .data_container_products .add_cart:active, .recommended_container .product_container .product_card_recommended .data_container_recommended .add_cart:active {
   transform: scale(0.97);
 }
 
@@ -50,7 +50,7 @@ body::-webkit-scrollbar-thumb {
   width: 100%;
   box-shadow: 0px 0px 23px -20px rgba(0, 0, 0, 0.75);
   position: fixed;
-  background-color: #fbf9f9;
+  background-color: #fefefe;
   z-index: 1;
 }
 .my-nav-bar .image_container {
@@ -72,7 +72,7 @@ body::-webkit-scrollbar-thumb {
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
-  background-color: #fbf9f9;
+  background-color: #fefefe;
 }
 .my-nav-bar .item_container ul {
   width: 100%;
@@ -224,6 +224,7 @@ footer {
   position: absolute;
   display: flex;
   flex-direction: column;
+  background-color: #fefefe;
 }
 footer .title_footer_container {
   width: 100%;
@@ -359,7 +360,7 @@ footer .copyright_container small {
 }
 .select-your-style .title-shop-continer h2 {
   font-size: 2rem;
-  color: #fbf9f9;
+  color: #fefefe;
   font-weight: 300;
   font-family: "Montserrat", sans-serif;
   letter-spacing: 2px;
@@ -401,7 +402,7 @@ footer .copyright_container small {
 .select-your-style .all-cards-container .card-container-materials .text-card-container p {
   width: 60%;
   text-align: center;
-  color: #fbf9f9;
+  color: #fefefe;
 }
 
 .main_user {
@@ -586,6 +587,35 @@ footer .copyright_container small {
   grid-area: three;
 }
 
+.main-404 {
+  width: 100%;
+  height: 100%;
+}
+.main-404 .card-container-404 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fefefe;
+}
+.main-404 .card-container-404 .image-container-404 {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(https://www.armariosempotrados.net/wp-content/uploads/2020/06/Armario-Vestidor.jpg);
+}
+.main-404 .card-container-404 .data-container-404 {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 @media (max-width: 1400px) {
   .main_nosotros {
     height: 80%;
@@ -748,6 +778,12 @@ footer .copyright_container small {
   .cart_main .card_cart_container .cart_footer_container .resume_container h3 {
     font-size: 1.3rem;
   }
+  .main-404 .card-container-404 .image-container {
+    width: 50%;
+  }
+  .main-404 .card-container-404 .data-container-404 {
+    width: 40%;
+  }
 }
 @media (max-width: 480px) {
   header img {
@@ -856,6 +892,17 @@ footer .copyright_container small {
   }
   .cart_main .card_cart_container .cart_footer_container .resume_container h3 {
     font-size: 1rem;
+  }
+  .main-404 .card-container-404 {
+    flex-direction: column;
+  }
+  .main-404 .card-container-404 .image-container {
+    width: 100%;
+    height: 20%;
+  }
+  .main-404 .card-container-404 .data-container-404 {
+    width: 100%;
+    height: 30%;
   }
 }
 @media (max-width: 400px) {

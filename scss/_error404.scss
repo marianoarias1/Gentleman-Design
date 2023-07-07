@@ -1,0 +1,33 @@
+.main-404{
+    width: 100%;
+    height: 100%;
+    .card-container-404{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $mainColor;
+        .image-container-404{
+            width: 70%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-image: url(https://www.armariosempotrados.net/wp-content/uploads/2020/06/Armario-Vestidor.jpg);
+        }
+
+        .data-container-404{
+            width: 30%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            button{
+                @extend .btn-gral;
+            }
+        }
+    }
+}
