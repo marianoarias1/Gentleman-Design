@@ -34,12 +34,15 @@
 </div>
 <h2> Responsive Realizado con Media Queries 📱</h2>
 <section>
-  <img src='https://github.com/marianoarias1/PreEntrega2-MarianoArias/assets/93659158/37b82924-603e-4978-9a03-a7524478f143'>
-  <img src='https://github.com/marianoarias1/PreEntrega2-MarianoArias/assets/93659158/852f7695-5b54-45fd-951c-c9f5e52f45b8'>
+  <img src='https://github.com/marianoarias1/PreEntrega2-MarianoArias/assets/93659158/20676a93-68ad-4c64-bea8-629a5d1f075f' style="width:356px;">
+  <img src='https://github.com/marianoarias1/PreEntrega2-MarianoArias/assets/93659158/852f7695-5b54-45fd-951c-c9f5e52f45b8' style="width: 350px;">
 </section>
+
+
 <div>
-  <img src="https://cdn-icons-png.flaticon.com/512/919/919827.png">
-  <img src="https://cdn-icons-png.flaticon.com/512/5968/5968242.png">
-  <img src="https://cdn-icons-png.flaticon.com/512/5968/5968358.png">
-  <img src="https://cdn-icons-png.flaticon.com/512/5968/5968672.png">
+  <h3>Techs</h3>
+  <img src="https://cdn-icons-png.flaticon.com/512/888/888859.png" style="width: 50px;">
+  <img src="https://cdn-icons-png.flaticon.com/512/5968/5968242.png" style="width: 50px;">
+  <img src="https://cdn-icons-png.flaticon.com/512/5968/5968358.png" style="width: 50px;">
+  <img src="https://cdn-icons-png.flaticon.com/512/5968/5968672.png" style="width: 50px;">
 </div>
