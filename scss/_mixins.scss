@@ -39,3 +39,9 @@
     font-weight: $weight;
     font-family: $mainFont; //variable global
 }
+
+@mixin fondos($backgroundImage, $backgroundPosition, $backgroundSize){
+    background-image: $backgroundImage;
+    background-position: $backgroundPosition;
+    background-size: $backgroundSize;
+}

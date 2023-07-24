@@ -348,12 +348,13 @@ footer .copyright_container small {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  background-image: url(../assets/Images/Nosotros/sastrería.jpg);
+  background-image: url("../assets/Images/Nosotros/sastrería.jpg");
+  background-position: "";
   background-size: 100%;
 }
 .select-your-style .title-shop-continer {
   width: 100%;
-  height: 20%;
+  height: 10%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -374,7 +375,7 @@ footer .copyright_container small {
 }
 .select-your-style .all-cards-container .card-container-materials {
   width: 25%;
-  height: 90%;
+  height: 80%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -386,6 +387,7 @@ footer .copyright_container small {
 }
 .select-your-style .all-cards-container .card-container-materials .image-card-container {
   width: 100%;
+  height: 50%;
 }
 .select-your-style .all-cards-container .card-container-materials .image-card-container img {
   width: 100%;
@@ -394,10 +396,10 @@ footer .copyright_container small {
 }
 .select-your-style .all-cards-container .card-container-materials .text-card-container {
   width: 100%;
-  height: 100%;
+  height: 50%;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 .select-your-style .all-cards-container .card-container-materials .text-card-container p {
   width: 60%;
@@ -411,6 +413,20 @@ footer .copyright_container small {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+}
+.main_user .title_user {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main_user .title_user h2 {
+  font-size: 2rem;
+  color: rgb(9, 9, 9);
+  font-weight: 300;
+  font-family: "Montserrat", sans-serif;
 }
 .main_user .card_user_container {
   display: flex;
@@ -420,6 +436,9 @@ footer .copyright_container small {
   height: 75%;
   border-radius: 15px;
   box-shadow: 0px 0px 15px -5px rgba(0, 0, 0, 0.37);
+  background-image: url("../assets/Images/user/login-user.jpg");
+  background-position: center;
+  background-size: cover;
 }
 .main_user .card_user_container .image_user_container {
   width: 100%;
@@ -429,7 +448,7 @@ footer .copyright_container small {
 }
 .main_user .card_user_container .image_user_container:nth-child(1) {
   font-size: 3rem;
-  color: rgb(9, 9, 9);
+  color: #fefefe;
 }
 .main_user .card_user_container .inputs_user_container {
   width: 100%;
@@ -443,7 +462,7 @@ footer .copyright_container small {
   height: 40px;
   text-align: center;
   margin-top: 20px;
-  border: 1px solid rgb(9, 9, 9);
+  border: none;
   border-radius: 15px;
 }
 .main_user .card_user_container .btn_container {
@@ -466,12 +485,19 @@ footer .copyright_container small {
 .main_user .card_user_container .text_user_container small {
   width: 15%;
   text-align: center;
-  opacity: 0.7;
+  opacity: 0.9;
   margin-bottom: 10px;
+  color: #fefefe;
 }
 .main_user .card_user_container .text_user_container a {
   font-size: 0.8rem;
   text-align: center;
+}
+
+.register-user .form-user {
+  background-image: url("../assets/Images/user/register-img.jpg");
+  background-position: center;
+  background-size: cover;
 }
 
 .cart_main {
@@ -638,27 +664,15 @@ footer .copyright_container small {
     background-size: cover;
     background-position: center;
   }
-  .select-your-style .title-shop-continer {
-    height: 10%;
-  }
   .select-your-style .title-shop-continer h2 {
     font-size: 1.8rem;
   }
   .select-your-style .all-cards-container {
-    height: 80%;
+    height: 100%;
   }
   .select-your-style .all-cards-container .card-container-materials {
-    height: 90%;
-    width: 30%;
-  }
-  .select-your-style .all-cards-container .card-container-materials .text-card-container {
-    height: 100%;
-    overflow: scroll;
-    align-items: flex-start;
-  }
-  .select-your-style .all-cards-container .card-container-materials .text-card-container p {
-    font-size: 1.1rem;
-    width: 65%;
+    height: 95%;
+    width: 25%;
   }
 }
 @media (max-width: 1024px) {
@@ -672,6 +686,10 @@ footer .copyright_container small {
     flex-wrap: wrap;
     width: 60%;
     text-align: center;
+  }
+  .select-your-style .all-cards-container .card-container-materials {
+    height: 90%;
+    width: 30%;
   }
 }
 @media (max-width: 768px) {
@@ -757,8 +775,15 @@ footer .copyright_container small {
   .materials {
     height: 50%;
   }
-  .select-your-style {
-    margin-top: 0;
+  .select-your-style .all-cards-container .card-container-materials {
+    height: 80%;
+    width: 30%;
+  }
+  .select-your-style .all-cards-container .card-container-materials .text-card-container {
+    height: 60%;
+  }
+  .select-your-style .all-cards-container .card-container-materials .text-card-container p {
+    width: 80%;
   }
   .cart_main .card_cart_container .title_cart_container {
     width: 95%;
@@ -853,6 +878,7 @@ footer .copyright_container small {
   }
   .select-your-style .all-cards-container .card-container-materials {
     width: 100%;
+    height: 90%;
     display: flex;
     scroll-snap-align: center;
     margin: 0% 50% 0% 50%;
@@ -860,6 +886,16 @@ footer .copyright_container small {
   .select-your-style .all-cards-container .card-container-materials .image-card-container img {
     width: 300px;
     object-fit: contain;
+  }
+  .select-your-style .all-cards-container .card-container-materials .text-card-container {
+    height: 50%;
+  }
+  .select-your-style .all-cards-container .card-container-materials .text-card-container p {
+    font-size: 1rem;
+    width: 80%;
+  }
+  .main_user .title_user h2 {
+    font-size: 1.5rem;
   }
   .main_user .card_user_container .text_user_container small {
     width: 50%;
@@ -980,6 +1016,16 @@ footer .copyright_container small {
   }
   .main_nosotros .nosotros_data_container .title_nosotros_container {
     height: 20%;
+  }
+  .main_user .title_user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .main_user .title_user h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 1.3rem;
   }
   .main_user .card_user_container .text_user_container small {
     width: 100%;

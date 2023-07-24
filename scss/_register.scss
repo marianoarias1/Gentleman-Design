@@ -1,0 +1,5 @@
+.register-user{
+    .form-user{
+        @include fondos(url("../assets/Images/user/register-img.jpg"), center, cover);
+    }
+}
